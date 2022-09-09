@@ -1,0 +1,56 @@
+/*.tooltip {*/
+/*    position: fixed;*/
+/*    text-align: center;*/
+/*    width: 60px;*/
+/*    height: 28px;*/
+/*    padding: 2px;*/
+/*    background: lightsteelblue;*/
+/*    border: 0px;*/
+/*    border-radius: 8px;*/
+/*    pointer-events: none;*/
+/*}*/
+.tooltip {
+    font-family: simsun;
+    font-size: 16px;
+    width: 120;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.chartTooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.chartTooltip.hidden {
+    display: none;
+}
+
+.detail-window {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    transition: top 200ms, left 200ms;
+    background: rgba(127,255,0.6);
+    padding: 10px;
+    opacity: 0;
+}
+
+.chartTooltip p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    word-wrap: break-word;
+}
