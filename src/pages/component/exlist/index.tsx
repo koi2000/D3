@@ -10,17 +10,18 @@ export const ExperimentList = () => {
         <Title>实验列表</Title>
       </TitleBlock>
       <ContentBlock>
-        <ContentCard onClick={() => navigate("/study/demo01")}>
+        <ContentCard onClick={() => navigate("/lab/lab1")}>
           <CardTitleContainer>
-            <CardTitle>样例#1</CardTitle>
+            <CardTitle>可视化实验1</CardTitle>
             <CardSubTitle>
-              当前为空
+              尝试对人口数据进行可视化
             </CardSubTitle>
           </CardTitleContainer>
           <CardChartContainer>
 
           </CardChartContainer>
         </ContentCard>
+
         <ContentCard onClick={() => navigate("/study/demo02")}>
           <CardTitleContainer>
             <CardTitle>样例#2 - 柱状图</CardTitle>

@@ -15,7 +15,9 @@ function App() {
                     key={route.path}
                     path={route.path}
                     //exact={route.exact}
+                    // @ts-ignore
                     element={<route.component/>}
+                    //element={route.component}
                 />
             );
         })}

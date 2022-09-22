@@ -141,14 +141,13 @@ export const Homework1 = () => {
             .on("click", getData)
             .on("mouseover", e => {
                 console.log(e)
-                // showTip(e)
                 //设置tooltip文字
                 var data = e.path[0].__data__.hairnumber;
                 console.log(data)
                 setState({
                     opacity: 0.8,
                     left: (e.pageX) + "px",
-                    top: (e.pageY) + 20 + "px",
+                    top: (e.pageY) + "px",
                     value: data
                 })
             })
